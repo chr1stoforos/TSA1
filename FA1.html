@@ -3,88 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favorite Websites</title>
+    <title>Inventory Systems</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .product-img {
+            width: 300px;
+            height: auto;
+        }
+    </style>
 </head>
-<body> <center>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6" bgcolor="lightblue">INVENTORY SYSTEMS</th>
+            </tr>
+            <tr bgcolor="lightgray">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Supplier</th>
+                <th>Date</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10001</td>
+                <td>Boy Bawang Adobo (pc)</td>
+                <td>1000</td>
+                <td rowspan="8" bgcolor="gold">KSK</td>
+                <td rowspan="2">5/14/2019</td>
+                <td rowspan="8"><img src="boybawang.png" alt="Boy Bawang Adobo" class="product-img"></td>
+            </tr>
+            <tr>
+                <td>10002</td>
+                <td>Boy Bawang Adobo (pack)</td>
+                <td>200</td>
+            </tr>
+            <tr bgcolor="lightgray"">
+                <td>10003</td>
+                <td>Boy Bawang Garlic (pc)</td>
+                <td>3000</td>
+                <td rowspan="2">5/15/2019</td>
+            </tr>
+            <tr bgcolor="lightgray"">
+                <td>10004</td>
+                <td>Boy Bawang Garlic (pack)</td>
+                <td><font color="red">150</font></td>
+            </tr>
+            <tr>
+                <td>10005</td>
+                <td>Boy Bawang Spicy (pc)</td>
+                <td>4000</td>
+                <td rowspan="2">5/16/2019</td>
+            </tr>
+            <tr>
+                <td>10006</td>
+                <td>Boy Bawang Spicy (pack)</td>
+                <td>240</td>
+            </tr>
+            <tr bgcolor="lightgray"">
+                <td>10007</td>
+                <td>Boy Bawang BBQ (pc)</td>
+                <td>3000</td>
+                <td rowspan="2">5/17/2019</td>
+            </tr>
+            <tr bgcolor="lightgray"">
+                <td>10008</td>
+                <td>Boy Bawang BBQ (pack)</td>
+                <td>210</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
 
-    <h2>Chris Angelo D. Sabater – TW03 IT0043L</h2>
+<!-- New Code -->
 
-    <h1 style="color: black;">Favorite Websites and URL Components</h1>
-
-            <p><span style="color: red; font-weight: bold;">HTTP</span></p>
-            <p><span style="color: blue; font-weight: bold;">DOMAIN NAME</span></p>
-            <p></p><span style="color: green; font-weight: bold;">TOP-LEVEL DOMA IN (TLD)</span></p>
-            <p></p><span style="color: orange; font-weight: bold;">SUBDIRECTORY / SUBFOLDER</span></p>
-            <p></p><span style="color: purple; font-weight: bold;">WEBPAGE / HTML DOCUMENT</span></p>
-
-    <h2 style="color: black;">Favorite Websites:</h2>
-
-        <li>
-            <span style="color: red; font-weight: bold;">https://</span>
-            <span style="color: blue; font-weight: bold;">www.google</span>
-            <span style="color: green; font-weight: bold;">.com</span>
-            <span style="color: orange; font-weight: bold;">/search</span>
-            <span style="color: purple; font-weight: bold;">?q=cats</span>
-        </li>
-        <li>
-            <span style="color: red; font-weight: bold;">https://</span>
-            <span style="color: blue; font-weight: bold;">news.bbc</span>
-            <span style="color: green; font-weight: bold;">.co.uk</span>
-            <span style="color: orange; font-weight: bold;">/sport/football</span>
-            <span style="color: purple; font-weight: bold;">/live-text</span>
-        </li>
-        <li>
-            <span style="color: red; font-weight: bold;">https://</span>
-            <span style="color: blue; font-weight: bold;">en.wikipedia</span>
-            <span style="color: green; font-weight: bold;">.org</span>
-            <span style="color: orange; font-weight: bold;">/wiki</span>
-            <span style="color: purple; font-weight: bold;">/Main_Page</span>
-        </li>
-        <li>
-            <span style="color: red; font-weight: bold;">https://</span>
-            <span style="color: blue; font-weight: bold;">www.feutech</span>
-            <span style="color: green; font-weight: bold;">.edu.ph</span>
-            <span style="color: orange; font-weight: bold;">/feutech/contact</span>
-            <span style="color: purple; font-weight: bold;">/index</span>
-        </li>
-        <li>
-            <span style="color: red; font-weight: bold;">https://</span>
-            <span style="color: blue; font-weight: bold;">feu.instructure</span>
-            <span style="color: green; font-weight: bold;">.com</span>
-            <span style="color: orange; font-weight: bold;">/calendar</span>
-            <span style="color: purple; font-weight: bold;">/#view_name=month&view_start=2025-05-08</span>
-        </li>
-
-    <h2 style="color: black;">Websites with Specific TLDs:</h2>
-    <ul>
-            <span style="color: blue;">european-union</span>
-            <span style="color: green;">(.eu)</span> - 
-            <span style="color: red; font-weight: bold;">https://</span>
-            <span style="color: blue; font-weight: bold;">european-union</span>
-            <span style="color: green; font-weight: bold;">.europa.eu</span>
-            <span style="color: orange; font-weight: bold;">/index</span>
-            <span style="color: purple; font-weight: bold;">_en</span>
-<br><br>
-        <img src="europa.png" alt="european-union" width="600">
-<br><br>
-            <span style="color: blue;">feutech</span>
-            <span style="color: green;">(.edu).ph</span> - 
-            <span style="color: red; font-weight: bold;">https://</span>
-            <span style="color: blue; font-weight: bold;">www.feutech</span>
-            <span style="color: green; font-weight: bold;">.edu.ph</span>
-<br><br>
-        <img src="feutechfa.png" alt="feutech" width="600">
-<br><br>
-            <span style="color: blue;">japan</span>
-            <span style="color: green;">.go(.jp)</span> - 
-            <span style="color: red; font-weight: bold;">https://</span>
-            <span style="color: blue; font-weight: bold;">www.japan</span>
-            <span style="color: green; font-weight: bold;">.go.jp</span>
-<br><br>
-        <img src="jap.png" alt="japan" width="600">
-<br><br>
-    </ul>
-        <a href="index.html"><button type="submit" style="color: white; font-weight: bold; background-color: #4CAF50; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 1em;">HOME</button></a>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        .required::after {
+            content: " *";
+            color: red;
+        }
+        .note {
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <ul>
+            <li>
+                <label for="name" class="required">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </li>
+            <li>
+                <label for="email" class="required">Email</label>
+                <input type="email" id="email" name="email" required>
+            </li>
+            <li>
+                <label for="contact" class="required">Contact No.</label>
+                <input type="tel" id="contact" name="contact" required>
+            </li>
+            <li>
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+            </li>
+            <li>
+                <span class="note">required field *</span>
+            </li>
+            <li>
+                <button type="submit">Send</button>
+            </li>
+        </ul>
+    </form>
 </body>
 </html>
