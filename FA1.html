@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Systems</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .product-img {
+            width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6" bgcolor="lightblue">INVENTORY SYSTEMS</th>
+            </tr>
+            <tr bgcolor="lightgray">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Supplier</th>
+                <th>Date</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10001</td>
+                <td>Boy Bawang Adobo (pc)</td>
+                <td>1000</td>
+                <td rowspan="8" bgcolor="gold">KSK</td>
+                <td rowspan="2">5/14/2019</td>
+                <td rowspan="8"><img src="boybawang.png" alt="Boy Bawang Adobo" class="product-img"></td>
+            </tr>
+            <tr>
+                <td>10002</td>
+                <td>Boy Bawang Adobo (pack)</td>
+                <td>200</td>
+            </tr>
+            <tr bgcolor="lightgray"">
+                <td>10003</td>
+                <td>Boy Bawang Garlic (pc)</td>
+                <td>3000</td>
+                <td rowspan="2">5/15/2019</td>
+            </tr>
+            <tr bgcolor="lightgray"">
+                <td>10004</td>
+                <td>Boy Bawang Garlic (pack)</td>
+                <td><font color="red">150</font></td>
+            </tr>
+            <tr>
+                <td>10005</td>
+                <td>Boy Bawang Spicy (pc)</td>
+                <td>4000</td>
+                <td rowspan="2">5/16/2019</td>
+            </tr>
+            <tr>
+                <td>10006</td>
+                <td>Boy Bawang Spicy (pack)</td>
+                <td>240</td>
+            </tr>
+            <tr bgcolor="lightgray"">
+                <td>10007</td>
+                <td>Boy Bawang BBQ (pc)</td>
+                <td>3000</td>
+                <td rowspan="2">5/17/2019</td>
+            </tr>
+            <tr bgcolor="lightgray"">
+                <td>10008</td>
+                <td>Boy Bawang BBQ (pack)</td>
+                <td>210</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        .required::after {
+            content: " *";
+            color: red;
+        }
+        .note {
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+<form>
+    <ul>
+        <li>
+            <label for="name" class="required">Your Name</label>
+            <input type="text" id="name">
+        </li>
+        <li>
+            <label for="email" class="required">Email</label>
+            <input type="email" id="email">
+        </li>
+        <li>
+            <label for="contact" class="required">Contact No.</label>
+            <input type="tel" id="contact">
+        </li>
+        <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+        </li>
+        <li>
+            <span class="note">required field *</span> 
+        </li>
+        
+    </ul>
+</form>
+
+<a href="index.html"></a><button type="submit">Send</button> <a href="index.html"><button type="submit" style="color: white; font-weight: bold; background-color: #4CAF50; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 1em; float: right;">HOME</button></a>
+
+</body>
+</html>
+
+
+
